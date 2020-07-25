@@ -1,0 +1,8 @@
+Dockerfile*
+docker-compose*
+README.md
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+app/credentials.json

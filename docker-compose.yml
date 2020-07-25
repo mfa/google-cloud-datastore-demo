@@ -1,0 +1,12 @@
+version: "2"
+services:
+  main:
+    build: .
+    command: "/start-reload.sh"
+    environment:
+      PYTHONUNBUFFERED: 0
+      GOOGLE_APPLICATION_CREDENTIALS: credentials.json
+    volumes:
+      - ./app:/app
+    ports:
+     - "8001:80"
