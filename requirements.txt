@@ -1,2 +1,2 @@
-fastapi==0.60.1
+fastapi==0.70.0
 google-cloud-datastore==1.13.2
